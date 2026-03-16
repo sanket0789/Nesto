@@ -9,9 +9,9 @@ import { testPhoneNumber, testPassword, testWeakPassword, invalidRulePassword, t
 describe('sign up page', () => {
   beforeEach('navigate to signup page and select the desired language', () => {
     cy.visit('/signup');
-    cy.selectLanguage(Cypress.env("language") || "en");
     cy.get('[data-testid="notice"]').should('exist');
     cy.get('#didomi-notice-agree-button').click({ force: true });
+    cy.selectLanguage(Cypress.env("language") || "en");
   })
 
   it('should create a new account successfully', () => {
@@ -122,7 +122,7 @@ describe('sign up page', () => {
       fieldErrors: [
         {
           field: 'accountAlreadyExists',
-          message: getMessage('accountAlreadyEXists')
+          message: getMessage('accountAlreadyExists')
         }
       ]
     });

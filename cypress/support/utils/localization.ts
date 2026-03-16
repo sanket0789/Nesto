@@ -5,7 +5,7 @@ const messages = {
     passwordRule: 'Password must contain at least one uppercase letter, one lowercase letter and one number',
     passwordNoMatch: 'Passwords do not match',
     invalidEmail: 'Invalid email',
-    accountAlreadyEXists: 'Something went wrong! Please try again and if you continue to have trouble feel free to contact your advisor',
+    accountAlreadyExists: 'Something went wrong! Please try again and if you continue to have trouble feel free to contact your advisor',
     genericError: 'The field is required',
     success: 'Account created successfully',
     labels: {
@@ -31,20 +31,21 @@ const messages = {
     }
   },
   fr: {
-    required: 'Requis',
-    weakPassword: 'Veuillez choisir un mot de passe plus sûr',
-    passwordNoMatch: 'Vos mots de passe ne correspondent pas.',
+    required: 'Ce champ est obligatoire.',
+    weakPassword: 'Minimum de 12 lettres requises',
+    passwordRule: 'Le mot de passe doit contenir au moins une lettre majuscule, une lettre minuscule et un chiffre',
+    passwordNoMatch: 'Les mots de passe ne correspondent pas',
     invalidEmail: 'Courriel invalide',
-    accountAlreadyEXists: 'Le compte existe déjà',
-    genericError: 'Il semble y avoir un petit problème. Pour poursuivre, veuillez nous appeler au 1-833-452-3267',
+    accountAlreadyExists: "Quelque chose n'a pas fonctionné! Veuillez réessayer et si vous avez toujours des problèmes, n'hésitez pas à contacter votre conseiller",
+    genericError: 'Ce champ est obligatoire.',
     success: 'Compte créé avec succès',
     labels: {
       firstName: 'Prénom',
-      lastName: 'Nom de famille',
+      lastName: 'Nom',
       email: 'Courriel',
-      phone: 'Numéro de cellulaire',
+      phone: 'Téléphone',
       password: 'Mot de passe',
-      confirmPassword: 'Confirmez votre mot de passe',
+      confirmPassword: 'Confirmation du mot de passe',
       province: 'Province'
     },
     provinces: {

@@ -44,4 +44,4 @@ export const getConfirmPasswordLabel = () => cy.get('[data-testid="passwordConfi
 
 export const getProvinceLabel = () => cy.get('[data-testid="select-placeholder"]');
 
-export const getToggleLanguage = () => cy.get('[data-testid="toggle-language"]');
+export const getToggleLanguage = () => cy.get('[data-testid="header-language-switch"]');

@@ -1,13 +1,12 @@
 
 
-<div Center="left" style="display: flex; align-items: center; gap: 16px;">
-   <img src="assets/logo.png" alt="Project Logo" width="80" style="vertical-align: middle; margin-right: 16px;"/>
-   <h1 style="display: inline; font-size: 2.5em; vertical-align: middle; margin: 0;">Nesto</h1>
+<table>
+  <tr>
+    <td><img src="assets/Logo.png" alt="Nesto Logo" width="60"/></td>
+    <td><h1>Nesto Test</h1></td>
+  </tr>
+</table>
 
-
-</div>
-
-<br><br>
 
 This repository contains end-to-end (E2E) tests for the nesto application using Cypress.
 
