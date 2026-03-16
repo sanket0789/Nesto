@@ -1,4 +1,13 @@
-# nesto
+
+
+<div Center="left" style="display: flex; align-items: center; gap: 16px;">
+   <img src="assets/logo.png" alt="Project Logo" width="80" style="vertical-align: middle; margin-right: 16px;"/>
+   <h1 style="display: inline; font-size: 2.5em; vertical-align: middle; margin: 0;">Nesto</h1>
+
+
+</div>
+
+<br><br>
 
 This repository contains end-to-end (E2E) tests for the nesto application using Cypress.
 
@@ -58,7 +67,6 @@ This will execute all tests in the terminal without the UI.
 ## Folder Structure Explanation
 
 ```
-bug.txt
 cypress.config.ts
 package.json
 README.md
@@ -81,6 +89,7 @@ cypress/
             test-data.ts         # Test data constants and helpers
 ```
 
+
 **Key folders/files:**
 - `cypress/e2e/`: Main test files for Cypress E2E testing.
 - `cypress/support/`: Custom commands, page objects, locators, types, and utilities.
@@ -88,9 +97,12 @@ cypress/
 - `cypress.config.ts`: Cypress configuration.
 - `package.json`: Project dependencies and scripts.
 - `tsconfig.json`: TypeScript configuration.
-- `bug.txt`: Bug tracking and notes.
 
 This structure helps organize tests, utilities, and configuration for maintainable Cypress automation.
+
+## Bug Reports
+
+For details on known issues and bug tracking, see the [BUGS.md](BUGS.md) file.
 
 ## Additional Notes
 
