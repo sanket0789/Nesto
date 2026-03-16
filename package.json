@@ -1,0 +1,21 @@
+{
+  "name": "nesto",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Cypress E2E tests for nesto application",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run:en": "cypress run --env language=en",
+    "cy:run:fr": "cypress run --env language=fr",
+    "test": "npm run cy:run:en"
+  },
+  "keywords": [],
+  "author": "Sanket Joshi",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "@types/node": "^22.19.15",
+    "cypress": "^14.5.4",
+    "typescript": "^5.9.3"
+  }
+}
